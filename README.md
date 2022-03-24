@@ -1,2 +1,5 @@
-# Ristretto
-App for Quality Control of mulltibeam sonar seafloor backscatter data
+# Iskaffe
+Quality Control of multibeam sonar seafloor backscatter data
+
+Alexandre Schimel, NGU
+alexandre.schimel@ngu.no
