@@ -49,3 +49,5 @@ alexandre.schimel@ngu.no
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## Acknowledgments
+
+Iskaffe logo from photo by [Talia Anna](https://unsplash.com/photos/kZt3uHtIyiI) on [Unsplash](https://unsplash.com)
