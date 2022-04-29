@@ -41,6 +41,10 @@ alexandre.schimel@ngu.no
 
 ## Version History
 
+* 0.1.1
+    * Fix UTM zones in Norway
+    * Acquisition modes warning and in results
+    * Corrected dB level
 * 0.1
     * Initial Release
 
