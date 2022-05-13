@@ -41,6 +41,12 @@ alexandre.schimel@ngu.no
 
 ## Version History
 
+* 0.1.2
+    * Not resetting zoom view when changing gridded data displayed
+    * Graphical objects now with stack order, with top loaded lines in foreground, and navigation above bad data above gridded data above coverage
+    * Right-click in loaded lines to allow reordering stack by time
+    * Colored coverage
+    * Fix "restore view"
 * 0.1.1
     * Fix UTM zones in Norway
     * Acquisition modes warning and in results
