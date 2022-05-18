@@ -1,44 +1,52 @@
-![alt text]([https://github.com/alexschimel/Iskaffe](https://github.com/alexschimel/Iskaffe)/blob/main/Iskaffe_resources/splash.png?raw=true)
+![alt text](https://github.com/alexschimel/Iskaffe/blob/main/Iskaffe_resources/splash.png?raw=true)
 
-# Iskaffe
+# *Iskaffe* 
 
-Multibeam bacskcatter quality control
+Multibeam backscatter quality control
 
 ## Description
 
-Iskaffe is an app to assess the quality of multibeam backscatter data.
+*Iskaffe* (Norwegian Bokmål for "iced coffee") is an app to help assess the quality of the seafloor backscatter data acquired by multibeam echosounders. Iskaffe uses the [CoFFee multibeam data processing toolbox](https://github.com/alexschimel/CoFFee) (hence the name). It is coded in MATLAB, but is available deployed (see the Dependencies and Installing sections).
+
+The main purpose of *Iskaffe* is to serve as a platform for the community of multibeam backscatter users to come up with 1) a set of algorithms that assess various aspects of backscatter quality, and 2) standards of backscatter quality based on the output of those algorithms. It is thus free and open-source, and we are actively seeking collaborators and feedback to help developing and fine-tuning the algorithms.
+
+*Iskaffe* is still at an early stage of development so it has fewer features and more bugs than you would want. Please be patient. For a starter, it only works with Kongsberg EM Series .all files (but we plan to support more formats, from more sonar manufacturers, in the future). The main features of the latest release are:
+* Detect and alarm when a dataset contains data in more than one acquisition mode
+* Display backscatter, bathymetry, slope, and acquisition mode
+* Find, display, and count "bad" soundings and "bad" pings, for each loaded line
+* Find, display, and count the grid cells where data have not been acquired yet
+* Output analysis results
 
 ## Getting Started
 
 ### Dependencies
 
-* For the source code: MATLAB R2020b
-* For the compiled executable: [MATLAB Runtime v9.9](https://au.mathworks.com/products/compiler/matlab-runtime.html) (but if you install thje app with the setup file, the setup wizard will automatically detect whether you have the correct version of MATLAB Runtime installed and, if not, offer you to download and install it)
+* For the source code: [MATLAB R2020b](https://au.mathworks.com/products/get-matlab.html) and a few required toolboxes (to list).
+* For the compiled executable: [MATLAB Runtime v9.9](https://au.mathworks.com/products/compiler/matlab-runtime.html)
+  * Note: if you install the app using the binary installer, the setup wizard will automatically detect whether you have the correct version of MATLAB Runtime installed and, if not, allow you to download and install it then.
 
 ### Installing
 
-[From the releases page](https://github.com/alexschimel/Iskaffe/releases)
+* For the source code: Clone the repository.
+* For the compiled executable: [Download the binary installer from the releases page](https://github.com/alexschimel/Iskaffe/releases), execute the installer, and follow the instructions of the setup wizard.
 
 ### Executing program
 
-* For the source code
-* For the compiled executable
-  * to do 
+* For the source code: Start MATLAB, navigate to the root directory of the source code, and type `Iskaffe` in the Command Window
+* For the compiled executable: Execute the installed program
 
 ## Help
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+There is no documentation yet, but a powerpoint presentation is available for download [from the releases page](https://github.com/alexschimel/Iskaffe/releases).
 
 ## Authors
 
-Alexandre Schimel
-alexandre.schimel@ngu.no
+* Alexandre Schimel, Margaret Dolan, Shyam Shand, Terje Thorsnes ([The Geological Survey of Norway](https://www.ngu.no))
+* Contact: alexandre.schimel@ngu.no
 
 ## Version History
-[From the releases page](https://github.com/alexschimel/Iskaffe/releases)
+
+[See the releases page](https://github.com/alexschimel/Iskaffe/releases)
 
 ## License
 
