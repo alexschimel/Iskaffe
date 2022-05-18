@@ -1,4 +1,4 @@
-![alt text](https://github.com/alexschimel/Iskaffe/blob/main/Iskaffe_resources/splash.png?raw=true)
+![alt text]([https://github.com/alexschimel/Iskaffe](https://github.com/alexschimel/Iskaffe)/blob/main/Iskaffe_resources/splash.png?raw=true)
 
 # Iskaffe
 
@@ -6,26 +6,24 @@ Multibeam bacskcatter quality control
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+Iskaffe is an app to assess the quality of multibeam backscatter data.
 
 ## Getting Started
 
 ### Dependencies
 
-* MATLAB Runtime
+* For the source code: MATLAB R2020b
+* For the compiled executable: [MATLAB Runtime v9.9](https://au.mathworks.com/products/compiler/matlab-runtime.html) (but if you install thje app with the setup file, the setup wizard will automatically detect whether you have the correct version of MATLAB Runtime installed and, if not, offer you to download and install it)
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+[From the releases page](https://github.com/alexschimel/Iskaffe/releases)
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
+* For the source code
+* For the compiled executable
+  * to do 
 
 ## Help
 
@@ -40,19 +38,7 @@ Alexandre Schimel
 alexandre.schimel@ngu.no
 
 ## Version History
-
-* 0.1.2
-    * Not resetting zoom view when changing gridded data displayed
-    * Graphical objects now with stack order, with top loaded lines in foreground, and navigation above bad data above gridded data above coverage
-    * Right-click in loaded lines to allow reordering stack by time
-    * Colored coverage
-    * Fix "restore view"
-* 0.1.1
-    * Fix UTM zones in Norway
-    * Acquisition modes warning and in results
-    * Corrected dB level
-* 0.1
-    * Initial Release
+[From the releases page](https://github.com/alexschimel/Iskaffe/releases)
 
 ## License
 
