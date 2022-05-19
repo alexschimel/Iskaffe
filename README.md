@@ -2,7 +2,9 @@
 
 # *Iskaffe* 
 
-Multibeam backscatter quality control. [Download the latest version](https://github.com/alexschimel/Iskaffe/releases/download/v0.1.2/iskaffe_v012_setup.exe).
+Multibeam backscatter quality control.
+
+[![](https://github.com/alexschimel/Iskaffe/blob/main/Iskaffe_resources/download.png?raw=true)](https://github.com/alexschimel/Iskaffe/releases/download/v0.1.2/iskaffe_v012_setup.exe)
 
 ## Description
 
