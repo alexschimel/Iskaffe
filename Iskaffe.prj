@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
-  <configuration build-checksum="1890889047" file="C:\Users\Schimel_Alexandre\Code\MATLAB\Iskaffe\Iskaffe.prj" location="C:\Users\Schimel_Alexandre\Code\MATLAB\Iskaffe" name="Iskaffe" preferred-package-location="C:\Users\Schimel_Alexandre\Code\MATLAB\Iskaffe\Iskaffe\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
+  <configuration build-checksum="3453944745" file="C:\Users\Schimel_Alexandre\Code\MATLAB\Iskaffe\Iskaffe.prj" location="C:\Users\Schimel_Alexandre\Code\MATLAB\Iskaffe" name="Iskaffe" preferred-package-location="C:\Users\Schimel_Alexandre\Code\MATLAB\Iskaffe\deployed\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
     <param.appname>Iskaffe</param.appname>
     <param.icon>${PROJECT_ROOT}\Iskaffe_resources\icon.ico</param.icon>
     <param.icons>
@@ -21,10 +21,10 @@
     <param.logo>${PROJECT_ROOT}\Iskaffe_resources\splash_half.png</param.logo>
     <param.install.notes />
     <param.target.install.notes />
-    <param.intermediate>${PROJECT_ROOT}\Iskaffe\for_testing</param.intermediate>
-    <param.files.only>${PROJECT_ROOT}\Iskaffe\for_redistribution_files_only</param.files.only>
-    <param.output>${PROJECT_ROOT}\Iskaffe\for_redistribution</param.output>
-    <param.logdir>${PROJECT_ROOT}\Iskaffe</param.logdir>
+    <param.intermediate>${PROJECT_ROOT}\bin\for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\bin\for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}\bin\for_redistribution</param.output>
+    <param.logdir>${PROJECT_ROOT}\bin</param.logdir>
     <param.enable.clean.build>false</param.enable.clean.build>
     <param.user.defined.mcr.options />
     <param.target.type>subtarget.standalone</param.target.type>
@@ -58,10 +58,6 @@
       <param.installpath.combo />
       <param.install.notes />
       <param.target.install.notes />
-      <param.intermediate />
-      <param.files.only />
-      <param.output />
-      <param.logdir />
       <param.enable.clean.build />
       <param.user.defined.mcr.options />
       <param.target.type />
@@ -162,9 +158,9 @@
       <file>${PROJECT_ROOT}\Iskaffe_resources\icon_48.png</file>
     </fileset.depfun>
     <build-deliverables>
-      <file location="${PROJECT_ROOT}\Iskaffe\for_testing" name="readme.txt" optional="true">C:\Users\Schimel_Alexandre\Code\MATLAB\Iskaffe\Iskaffe\for_testing\readme.txt</file>
-      <file location="${PROJECT_ROOT}\Iskaffe\for_testing" name="splash.png" optional="false">C:\Users\Schimel_Alexandre\Code\MATLAB\Iskaffe\Iskaffe\for_testing\splash.png</file>
-      <file location="${PROJECT_ROOT}\Iskaffe\for_testing" name="Iskaffe.exe" optional="false">C:\Users\Schimel_Alexandre\Code\MATLAB\Iskaffe\Iskaffe\for_testing\Iskaffe.exe</file>
+      <file location="${PROJECT_ROOT}\bin\for_testing" name="Iskaffe.exe" optional="false">C:\Users\Schimel_Alexandre\Code\MATLAB\Iskaffe\bin\for_testing\Iskaffe.exe</file>
+      <file location="${PROJECT_ROOT}\bin\for_testing" name="splash.png" optional="false">C:\Users\Schimel_Alexandre\Code\MATLAB\Iskaffe\bin\for_testing\splash.png</file>
+      <file location="${PROJECT_ROOT}\bin\for_testing" name="readme.txt" optional="true">C:\Users\Schimel_Alexandre\Code\MATLAB\Iskaffe\bin\for_testing\readme.txt</file>
     </build-deliverables>
     <workflow />
     <matlab>
