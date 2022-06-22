@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
-  <configuration build-checksum="3453944745" file="C:\Users\Schimel_Alexandre\Code\MATLAB\Iskaffe\Iskaffe.prj" location="C:\Users\Schimel_Alexandre\Code\MATLAB\Iskaffe" name="Iskaffe" preferred-package-location="C:\Users\Schimel_Alexandre\Code\MATLAB\Iskaffe\deployed\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
+  <configuration build-checksum="1478979256" file="C:\Users\Schimel_Alexandre\Code\MATLAB\Iskaffe\Iskaffe.prj" location="C:\Users\Schimel_Alexandre\Code\MATLAB\Iskaffe" name="Iskaffe" preferred-package-location="C:\Users\Schimel_Alexandre\Code\MATLAB\Iskaffe\bin\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
     <param.appname>Iskaffe</param.appname>
     <param.icon>${PROJECT_ROOT}\Iskaffe_resources\icon.ico</param.icon>
     <param.icons>
