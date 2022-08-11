@@ -33,7 +33,7 @@ The main purpose of *Iskaffe* is to serve as a platform to help the community of
 ### Installing
 
 * For the source code: 
-  * Clone this repository, as well as the repository of [*CoFFee*](https://github.com/alexschimel/CoFFee)
+  * Clone or download this repository, as well as the repository of [*CoFFee*](https://github.com/alexschimel/CoFFee), onto your machine.
 * For the compiled executable: 
   * Preferably, [download the binary installer from the releases page](https://github.com/alexschimel/Iskaffe/releases), execute the installer, and follow the instructions of the setup wizard. The setup wizard requires an internet connection. The setup wizard will check if you have the appropriate version of MATLAB Runtime installed and, if not, let you download and install it.
   * Alternatively, if you already have the appropriate version of MATLAB Runtime installed, you can simply [download the binary executable and accompanying files from the releases page](https://github.com/alexschimel/Iskaffe/releases).
