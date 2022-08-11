@@ -24,8 +24,11 @@ The main purpose of *Iskaffe* is to serve as a platform to help the community of
 ### Dependencies
 
 * For the source code:
-  * [MATLAB R2020b](https://au.mathworks.com/products/get-matlab.html)
-  * A few MATLAB toolboxes (to list)
+  * [MATLAB](https://au.mathworks.com/products/get-matlab.html). Authors are currently using R2020b, but it may work on other versions.
+  * Some MATLAB toolboxes:
+    * Mapping Toolbox
+    * Image Processing Toolbox
+    * Statistics and Machine Learning Toolbox
   * [The *CoFFee* toolbox](https://github.com/alexschimel/CoFFee)
 * For the compiled executable: [MATLAB Runtime v9.9](https://au.mathworks.com/products/compiler/matlab-runtime.html).
   * Note: if you install the app using the binary installer, the setup wizard will automatically detect whether you have the correct version of MATLAB Runtime installed and, if not, allow you to download and install it then.
@@ -49,8 +52,8 @@ There is no documentation yet, but a powerpoint presentation is available for do
 
 ## Authors
 
-* Alexandre Schimel, Margaret Dolan, Shyam Shand, Terje Thorsnes, Lilja Rún Bjarnadóttir ([The Geological Survey of Norway](https://www.ngu.no))
-* Contact: alexandre.schimel@ngu.no
+* Alexandre Schimel([The Geological Survey of Norway](https://www.ngu.no), alexandre.schimel@ngu.no)
+* Margaret Dolan, Shyam Shand, Terje Thorsnes, Lilja Rún Bjarnadóttir (The Geological Survey of Norway)
 
 ## Version History
 
@@ -63,9 +66,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 ## See Also
 
 All apps based on CoFFee:
-* *Iskaffe*: https://github.com/alexschimel/Iskaffe
 * *Grounds*: https://github.com/alexschimel/Grounds
 * *Espresso* (private)
+* *Iskaffe*: https://github.com/alexschimel/Iskaffe
 
 
 ## Acknowledgments
