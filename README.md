@@ -23,19 +23,24 @@ The main purpose of *Iskaffe* is to serve as a platform to help the community of
 
 ### Dependencies
 
-* For the source code: [MATLAB R2020b](https://au.mathworks.com/products/get-matlab.html) and a few required toolboxes (to list).
+* For the source code:
+  * [MATLAB R2020b](https://au.mathworks.com/products/get-matlab.html)
+  * A few MATLAB toolboxes (to list)
+  * [The *CoFFee* toolbox](https://github.com/alexschimel/CoFFee)
 * For the compiled executable: [MATLAB Runtime v9.9](https://au.mathworks.com/products/compiler/matlab-runtime.html).
   * Note: if you install the app using the binary installer, the setup wizard will automatically detect whether you have the correct version of MATLAB Runtime installed and, if not, allow you to download and install it then.
 
 ### Installing
 
-* For the source code: Clone the repository.
-* For the compiled executable: Preferably, [download the binary installer from the releases page](https://github.com/alexschimel/Iskaffe/releases), execute the installer, and follow the instructions of the setup wizard. The setup wizard requires an internet connection. The setup wizard will check if you have the appropriate version of MATLAB Runtime installed and, if not, let you download and install it.
+* For the source code: 
+  * Clone this repository, as well as the repository of [*CoFFee*](https://github.com/alexschimel/CoFFee)
+* For the compiled executable: 
+  * Preferably, [download the binary installer from the releases page](https://github.com/alexschimel/Iskaffe/releases), execute the installer, and follow the instructions of the setup wizard. The setup wizard requires an internet connection. The setup wizard will check if you have the appropriate version of MATLAB Runtime installed and, if not, let you download and install it.
   * Alternatively, if you already have the appropriate version of MATLAB Runtime installed, you can simply [download the binary executable and accompanying files from the releases page](https://github.com/alexschimel/Iskaffe/releases).
 
 ### Executing program
 
-* For the source code: Start MATLAB, navigate to the root directory of the source code, and type `Iskaffe` in the Command Window.
+* For the source code: Start MATLAB, navigate to the root directory of the *Iskaffe* code, and type `Iskaffe` in the Command Window.
 * For the compiled executable: Execute the installed program.
 
 ## Help
