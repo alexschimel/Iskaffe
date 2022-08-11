@@ -55,6 +55,18 @@ There is no documentation yet, but a powerpoint presentation is available for do
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
+## See Also
+
+All apps based on CoFFee:
+* *Iskaffe*: https://github.com/alexschimel/Iskaffe
+* *Grounds*: https://github.com/alexschimel/Grounds
+* *Espresso* (private)
+
+
 ## Acknowledgments
 
 Iskaffe logo from photo by [Talia Anna](https://unsplash.com/photos/kZt3uHtIyiI) on [Unsplash](https://unsplash.com)
+
+## References 
+
+None to date.
