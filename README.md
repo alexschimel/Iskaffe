@@ -78,3 +78,15 @@ Iskaffe logo from photo by [Talia Anna](https://unsplash.com/photos/kZt3uHtIyiI)
 ## References 
 
 None to date.
+
+## For developers
+
+Appropriate sequence to develop:
+* Pull latest commits on both *CoFFee* and *Iskaffe*
+* Run *Iskaffe* to check if it runs on the latest *CoFFee* (warning at start-up if it doesn't). 
+* If outdated, start with updating *Iskaffe* to use latest *CoFFee*. When done, update *Iskaffe* verison number and push to origin
+* Develop all processing on *CoFFee* and all GUI stuff on *Iskaffe*
+* Finish with compiling the new *Iskaffe*
+* When done, check if *CoFFee* was modified.
+* If it was, increase version number (CFF_coffee_version), then push it up on git (including version tag)
+* Next, do the same for Iskaffe (iskaffe_version()).
