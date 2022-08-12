@@ -82,11 +82,20 @@ None to date.
 ## For developers
 
 Appropriate sequence to develop:
-* Pull latest commits on both *CoFFee* and *Iskaffe*
+* Pull latest commits on both *CoFFee* and *Iskaffe*.
 * Run *Iskaffe* to check if it runs on the latest *CoFFee* (warning at start-up if it doesn't). 
-* If outdated, start with updating *Iskaffe* to use latest *CoFFee*. When done, update *Iskaffe* verison number and push to origin
+  * If outdated, start with updating *Iskaffe* to use latest *CoFFee*. When done, update *Iskaffe* verison number and push to origin.
 * Develop all processing on *CoFFee* and all GUI stuff on *Iskaffe*
-* Finish with compiling the new *Iskaffe*
 * When done, check if *CoFFee* was modified.
-* If it was, increase version number (CFF_coffee_version), then push it up on git (including version tag)
-* Next, do the same for Iskaffe (iskaffe_version()).
+  * If it was, increase version number (CFF_coffee_version), then push it up on git (including version tag).
+* Next, increase version number for Iskaffe (iskaffe_version()).
+* Compile *Iskaffe*:
+  * restoredefaultpath, and run Iskaffe to get a clean path. Check a last time it all works fine
+  * Double-click on 'Iskaffe.prj' to run the application compiler with existing settings
+  * Remove the main file 'Iskaffe.mlapp' and add it again (the app then finds the dependencies)
+  * Update version number in the setup filename, the application information, and default installation folder
+  * Save
+  * Click on 'Package'
+* Push it up on git (including version tag)
+* Create new release on github from tag. Add the binaries
+
