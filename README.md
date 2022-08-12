@@ -96,6 +96,7 @@ Appropriate sequence to develop:
   * Update version number in the setup filename, the application information, and default installation folder
   * Save
   * Click on 'Package'
+  * Install the new executable with the setup file and test it all works
 * Push it up on git (including version tag)
-* Create new release on github from tag. Add the binaries
+* Create new release on github from tag. Add the binary setup, and a zipped version of the 'for_redistribution_files_only' folder
 
