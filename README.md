@@ -81,15 +81,15 @@ None to date.
 
 ## For developers
 
-Appropriate sequence to develop:
-* Pull latest commits on both *CoFFee* and *Iskaffe*.
-* Run *Iskaffe* to check if it runs on the latest *CoFFee* (warning at start-up if it doesn't). 
-  * If outdated, start with updating *Iskaffe* to use latest *CoFFee*. When done, update *Iskaffe* verison number and push to origin.
-* Develop all processing on *CoFFee* and all GUI stuff on *Iskaffe*
+Appropriate sequence to develop the app (*Iskaffe*):
+* Checkout the latest commits on the main branches of both *CoFFee* and the app.
+* Run the app to check if it uses the latest *CoFFee* version or an older version (warning at start-up). 
+  * If the app is running on an older version of *CoFFee*, start with updating the app to use that latest *CoFFee* version. If the update is a big job, create a new feature branch for this development. Otherwise, just do the changes and push a new commit on the main branch. Before committing, make sure you update the app's version number as well as the *CoFFee* version it runs on. After committing, remember to add the new tag on git.
+* Develop all processing on *CoFFee* and all GUI stuff on the app.
 * When done, check if *CoFFee* was modified.
   * If it was, increase version number (CFF_coffee_version), then push it up on git (including version tag).
-* Next, increase version number for Iskaffe (iskaffe_version()).
-* Compile *Iskaffe*:
+* Next, increase version number for the app.
+* Compile the app:
   * restoredefaultpath, and run Iskaffe to get a clean path. Check a last time it all works fine
   * Double-click on 'Iskaffe.prj' to run the application compiler with existing settings
   * Remove the main file 'Iskaffe.mlapp' and add it again (the app then finds the dependencies)
@@ -99,4 +99,3 @@ Appropriate sequence to develop:
   * Install the new executable with the setup file and test it all works
 * Push it up on git (including version tag)
 * Create new release on github from tag. Add the binary setup, and a zipped version of the 'for_redistribution_files_only' folder
-
