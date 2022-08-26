@@ -81,21 +81,30 @@ None to date.
 
 ## For developers
 
-Appropriate sequence to develop the app (*Iskaffe*):
-* Checkout the latest commits on the main branches of both *CoFFee* and the app.
-* Run the app to check if it uses the latest *CoFFee* version or an older version (warning at start-up). 
-  * If the app is running on an older version of *CoFFee*, start with updating the app to use that latest *CoFFee* version. If the update is a big job, create a new feature branch for this development. Otherwise, just do the changes and push a new commit on the main branch. Before committing, make sure you update the app's version number as well as the *CoFFee* version it runs on. After committing, remember to add the new tag on git.
-* Develop all processing on *CoFFee* and all GUI stuff on the app.
-* When done, check if *CoFFee* was modified.
-  * If it was, increase version number (CFF_coffee_version), then push it up on git (including version tag).
-* Next, increase version number for the app.
-* Compile the app:
-  * restoredefaultpath, and run Iskaffe to get a clean path. Check a last time it all works fine
-  * Double-click on 'Iskaffe.prj' to run the application compiler with existing settings
-  * Remove the main file 'Iskaffe.mlapp' and add it again (the app then finds the dependencies)
-  * Update version number in the setup filename, the application information, and default installation folder
-  * Save
-  * Click on 'Package'
-  * Install the new executable with the setup file and test it all works
-* Push it up on git (including version tag)
-* Create new release on github from tag. Add the binary setup, and a zipped version of the 'for_redistribution_files_only' folder
+Appropriate sequence to develop *Iskaffe*:
+* Checkout the latest commits on the main branches of both *CoFFee* and *Iskaffe*.
+* Check if that latest version of *Iskaffe* uses the latest version of *CoFFee* (in the code, or warning at start-up). 
+* If *Iskaffe* is running on an older version of *CoFFee*:
+  * Start with updating *Iskaffe* to use that latest version of *CoFFee*.
+  * Before committing those changes, increase *Iskaffe*'s version number and update which *CoFFee* version it runs on. 
+  * After committing, remember to add the new tag on git.
+* Develop *Iskaffe* as you wish. Remember that all processing goes ideally in *CoFFee* and all user-interface stuff on *Iskaffe*.
+* When done, if *CoFFee* was modified:
+  * Increase its version number (in function `CFF_coffee_version.m`).
+  * Push it up on git first. Add a tag.
+* Increase version number for *Iskaffe* and update which *CoFFee* version it runs on.
+* If you wish to compile this new version of *Iskaffe*:
+  * In MATLAB, run `restoredefaultpath` to ensure you get a clean path. 
+  * Run *Iskaffe* and check a last time it all works fine.
+  * Double-click on the file `Iskaffe.prj` to run the application compiler with existing settings:
+    * Remove the main file `Iskaffe.mlapp` and add it again for the application compiler to find all dependencies.
+    * Update the version number in the setup filename, the application information, and the default installation folder.
+    * Save.
+    * Click on `Package`.
+  * Install the new executable with the setup file.'
+  * Test that the setup works correctly.
+  * Test that the installed software runs correctly.
+* Push *Iskaffe* up on git. Add a version tag.
+* If you compiled that new version:
+  * Create a new release on github from the tag. 
+  * Add the binary setup, and a zipped version of the `for_redistribution_files_only` folder.
