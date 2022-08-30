@@ -48,13 +48,13 @@ The main purpose of *Iskaffe* is to serve as a platform to help the community of
 * For the compiled executable: Execute the installed program.
   * Note: The first time you run *Iskaffe* after installation, it might take a while for the app to appear. Be patient. It will be faster the next times.
 
-Note: At start-up, *Iskaffe* creates a `Iskaffe` user folder in the folder that contains your MATLAB user folder (usually, C:\Users\USERNAME\Documents\Iskaffe). This folder contains a configuration file for the app, and is the default folder for any exports from the app. It can be deleted safely (although this resets the app configuration).
+Note: At start-up, *Iskaffe* creates a `Iskaffe` user folder (normally, C:\Users\USERNAME\Documents\Iskaffe). This folder contains a configuration file for the app, and is the default folder for any exports from the app. This folder or any of its contents can be deleted safely (although if you delete the configuration file, this will reset the app configuration).
 
 ## Help
 
 There is no documentation yet, but a powerpoint presentation is available for download [from the releases page](https://github.com/alexschimel/Iskaffe/releases).
 
-If you want to receive notifications of future releases (recommended), you may create a github account, and on this repository click on 'Watch', then 'Custom', and choose 'Releases'. Verify in your settings that you are set to receive 'Watching' notifications.
+If you want to receive notifications of future releases (recommended), you may create a github account, and on this repository click on 'Watch', then 'Custom', and choose 'Releases'. Verify in your GitHub settings that you are set to receive 'Watching' notifications.
 
 For more information, contact the authors.
 
