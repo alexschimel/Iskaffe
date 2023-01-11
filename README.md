@@ -1,10 +1,10 @@
-![](https://github.com/alexschimel/Iskaffe/blob/main/Iskaffe_resources/splash.png?raw=true)
+![](https://github.com/alexschimel/Iskaffe/blob/484757a4ad0dc510b9718f184ccb408ad1d3f4fa/Iskaffe_resources/iskaffe_banner.png)
 
 # *Iskaffe* 
 
 Multibeam backscatter quality control.
 
-[![](https://github.com/alexschimel/Iskaffe/blob/main/Iskaffe_resources/download.png?raw=true)](https://github.com/alexschimel/Iskaffe/releases/download/v0.1.3/iskaffe_v013_setup.exe)
+[![](https://github.com/alexschimel/Iskaffe/blob/484757a4ad0dc510b9718f184ccb408ad1d3f4fa/Iskaffe_resources/download.png)](https://github.com/alexschimel/Iskaffe/releases/download/v0.1.5/iskaffe_v015_setup.exe)
 
 ## Description
 
@@ -18,6 +18,8 @@ Multibeam backscatter quality control.
 * Find, display, and count "bad" soundings and "bad" pings, for each loaded line
 * Find, display, and count the grid cells where data have not been acquired yet
 * Output analysis results
+
+![](https://github.com/alexschimel/Iskaffe/blob/484757a4ad0dc510b9718f184ccb408ad1d3f4fa/Iskaffe_resources/screenshot_Iskaffe_v015.png)
 
 ## Getting Started
 
