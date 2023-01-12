@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
-  <configuration build-checksum="1478979256" file="C:\Users\Schimel_Alexandre\Code\MATLAB\Iskaffe\Iskaffe.prj" location="C:\Users\Schimel_Alexandre\Code\MATLAB\Iskaffe" name="Iskaffe" preferred-package-location="C:\Users\Schimel_Alexandre\Code\MATLAB\Iskaffe\bin\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
+  <configuration build-checksum="2188852943" file="C:\Users\Schimel_Alexandre\Code\MATLAB\Iskaffe\Iskaffe.prj" location="C:\Users\Schimel_Alexandre\Code\MATLAB\Iskaffe" name="Iskaffe" preferred-package-location="C:\Users\Schimel_Alexandre\Code\MATLAB\Iskaffe\bin\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
     <param.appname>Iskaffe</param.appname>
     <param.icon>${PROJECT_ROOT}\Iskaffe_resources\icon.ico</param.icon>
     <param.icons>
@@ -8,15 +8,15 @@
       <file>${PROJECT_ROOT}\Iskaffe_resources\icon_24.png</file>
       <file>${PROJECT_ROOT}\Iskaffe_resources\icon_16.png</file>
     </param.icons>
-    <param.version>0.1.3</param.version>
+    <param.version>0.1.5</param.version>
     <param.authnamewatermark>Alexandre Schimel</param.authnamewatermark>
     <param.email>alexandre.schimel@ngu.no</param.email>
     <param.company>NGU</param.company>
-    <param.summary>Multibeam backscatter quality control tool</param.summary>
-    <param.description />
+    <param.summary>Multibeam backscatter quality control</param.summary>
+    <param.description>Iskaffe (Norwegian Bokmål for "iced coffee") is a free and open-source app to help assess the quality of the seafloor backscatter data acquired by multibeam echosounders. The main purpose of this tool is to serve as a development platform to come up with a set of algorithms that assess various aspects of backscatter quality, and define standards of backscatter quality based on the output of those algorithms. While we are currently developping Iskaffe for our own use, we are welcoming co-developers and feedback to help coming up with more widely-applicable algorithms and backscatter quality standards.</param.description>
     <param.screenshot>${PROJECT_ROOT}\Iskaffe_resources\splash.png</param.screenshot>
     <param.guid />
-    <param.installpath.string>\Iskaffe\v0.1.3</param.installpath.string>
+    <param.installpath.string>\Iskaffe\v0.1.5</param.installpath.string>
     <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
     <param.logo>${PROJECT_ROOT}\Iskaffe_resources\splash_half.png</param.logo>
     <param.install.notes />
@@ -32,7 +32,7 @@
     <param.web.mcr>true</param.web.mcr>
     <param.package.mcr>false</param.package.mcr>
     <param.no.mcr>false</param.no.mcr>
-    <param.web.mcr.name>iskaffe_v013_setup</param.web.mcr.name>
+    <param.web.mcr.name>iskaffe_v015_setup</param.web.mcr.name>
     <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
     <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
     <param.windows.command.prompt>false</param.windows.command.prompt>
@@ -51,7 +51,6 @@
       <param.authnamewatermark />
       <param.email />
       <param.company />
-      <param.description />
       <param.guid />
       <param.installpath.combo />
       <param.install.notes />
@@ -155,8 +154,8 @@
       <file>C:\Users\Schimel_Alexandre\Code\MATLAB\CoFFee\toolboxes\textprogressbar\textprogressbar.m</file>
       <file>C:\Users\Schimel_Alexandre\Code\MATLAB\CoFFee\watercolumn_general\CFF_init_memmapfiles.m</file>
       <file>C:\Users\Schimel_Alexandre\Code\MATLAB\CoFFee\watercolumn_processing\CFF_group_pings.m</file>
+      <file>${PROJECT_ROOT}\Iskaffe_resources\figure_icon.png</file>
       <file>${PROJECT_ROOT}\Iskaffe_resources\foldericon.gif</file>
-      <file>${PROJECT_ROOT}\Iskaffe_resources\icon_48.png</file>
     </fileset.depfun>
     <build-deliverables>
       <file location="${PROJECT_ROOT}\bin\for_testing" name="Iskaffe.exe" optional="false">C:\Users\Schimel_Alexandre\Code\MATLAB\Iskaffe\bin\for_testing\Iskaffe.exe</file>
