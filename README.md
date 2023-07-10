@@ -4,7 +4,7 @@
 
 Multibeam backscatter quality control.
 
-[![](https://github.com/alexschimel/Iskaffe/blob/main/Iskaffe_resources/download.png)](https://github.com/alexschimel/Iskaffe/releases/download/v0.1.5/iskaffe_v015_setup.exe)
+[![](https://github.com/alexschimel/Iskaffe/blob/main/Iskaffe_resources/download.png)](https://github.com/alexschimel/Iskaffe/releases/download/v0.2/iskaffe_v020_setup.exe)
 
 ## Description
 
