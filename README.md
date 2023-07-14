@@ -12,7 +12,8 @@ Multibeam backscatter quality control.
 
 *Iskaffe* uses the [CoFFee multibeam data processing toolbox](https://github.com/alexschimel/CoFFee) (hence the name). It is coded in [MATLAB](https://www.mathworks.com/products/matlab.html), but is also available as a standalone application that does not require a MATLAB licence (see the Dependencies and Installing sections).
 
-*Iskaffe* is still at an early stage of development so it has fewer features and more bugs than you would want. Please be patient. For a starter, its main current limitations are that it only works with Kongsberg EM Series .all files, and that it does not like loading too many files at a time. Still, the latest release already has some relevant features:
+*Iskaffe* is still at an early stage of development so it has fewer features and more bugs than you would want. Please be patient. For a starter, its main current limitations are that it does not like loading too many files at a time. Still, the latest release already has some relevant features:
+* Support Kongsberg .all and .kmall formats
 * Detect and alarm when a dataset contains data in more than one acquisition mode
 * Display backscatter, bathymetry, slope, and acquisition mode
 * Find, display, and count "bad" soundings and "bad" pings, for each loaded line
