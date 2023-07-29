@@ -55,11 +55,13 @@ Note: At start-up, *Iskaffe* creates a `Iskaffe` user folder (normally, C:\Users
 
 ## Help
 
-There is no documentation yet, but a powerpoint presentation of an earlier release (v0.1.2) is available for download [from the releases page](https://github.com/alexschimel/Iskaffe/releases).
-
-If you want to receive notifications of future releases (recommended), you may create a github account, and on this repository click on 'Watch', then 'Custom', and choose 'Releases'. Verify in your GitHub settings that you are set to receive 'Watching' notifications.
+Head over to the [wiki](https://github.com/alexschimel/Iskaffe/wiki) for documentation (in progress as of 29/07/2023).
 
 For more information, contact the authors.
+
+## Updates
+
+If you want to receive notifications of future releases (recommended), you may create a github account, and on this repository click on 'Watch', then 'Custom', and choose 'Releases'. Verify in your GitHub settings that you are set to receive 'Watching' notifications.
 
 ## Authors
 
@@ -80,8 +82,6 @@ All apps based on CoFFee:
 * [*Grounds*](https://github.com/alexschimel/Grounds): Elevation Change Analysis
 * *Espresso*: Water-column data viewing and processing (private)
 * [*Iskaffe*](https://github.com/alexschimel/Iskaffe): Multibeam backscatter quality control
-* [*Kopp*](https://github.com/alexschimel/Kopp): Tracking Multibeam raw data parameter changes
-
 
 ## Acknowledgments
 
