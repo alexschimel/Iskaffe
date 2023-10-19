@@ -8,7 +8,7 @@
       <file>${PROJECT_ROOT}\Iskaffe_resources\icon_24.png</file>
       <file>${PROJECT_ROOT}\Iskaffe_resources\icon_16.png</file>
     </param.icons>
-    <param.version>0.3.1</param.version>
+    <param.version>0.3.2</param.version>
     <param.authnamewatermark>Alexandre Schimel</param.authnamewatermark>
     <param.email>alexandre.schimel@ngu.no</param.email>
     <param.company>NGU</param.company>
@@ -16,7 +16,7 @@
     <param.description>Iskaffe (Norwegian Bokmål for "iced coffee") is a free and open-source app to help assess the quality of the seafloor backscatter data acquired by multibeam echosounders. The main purpose of this tool is to serve as a development platform to come up with a set of algorithms that assess various aspects of backscatter quality, and define standards of backscatter quality based on the output of those algorithms. While we are currently developping Iskaffe for our own use, we are welcoming co-developers and feedback to help coming up with more widely-applicable algorithms and backscatter quality standards.</param.description>
     <param.screenshot>${PROJECT_ROOT}\Iskaffe_resources\splash.png</param.screenshot>
     <param.guid />
-    <param.installpath.string>\Iskaffe\v0.3.1</param.installpath.string>
+    <param.installpath.string>\Iskaffe\v0.3.2</param.installpath.string>
     <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
     <param.logo>${PROJECT_ROOT}\Iskaffe_resources\splash_half.png</param.logo>
     <param.install.notes />
@@ -28,11 +28,13 @@
     <param.enable.clean.build>false</param.enable.clean.build>
     <param.user.defined.mcr.options />
     <param.target.type>subtarget.standalone</param.target.type>
-    <param.support.packages />
+    <param.support.packages>
+      <item>&lt;package displayname="Hyperspectral Imaging Library Support Package" enabled="false" name="Hyperspectral Imaging Library Support Package" product="Image Processing Toolbox"/&gt;</item>
+    </param.support.packages>
     <param.web.mcr>true</param.web.mcr>
     <param.package.mcr>false</param.package.mcr>
     <param.no.mcr>false</param.no.mcr>
-    <param.web.mcr.name>iskaffe_v031_setup</param.web.mcr.name>
+    <param.web.mcr.name>iskaffe_v032_setup</param.web.mcr.name>
     <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
     <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
     <param.windows.command.prompt>false</param.windows.command.prompt>
@@ -58,7 +60,6 @@
       <param.enable.clean.build />
       <param.user.defined.mcr.options />
       <param.target.type />
-      <param.support.packages />
       <param.web.mcr />
       <param.package.mcr />
       <param.no.mcr />
@@ -127,7 +128,9 @@
       <file>C:\Users\Schimel_Alexandre\Code\MATLAB\CoFFee\read_data_files\Kongsberg\format_all\CFF_read_all_from_fileinfo.m</file>
       <file>C:\Users\Schimel_Alexandre\Code\MATLAB\CoFFee\read_data_files\Kongsberg\format_kmall\CFF_check_KMALLfilename.m</file>
       <file>C:\Users\Schimel_Alexandre\Code\MATLAB\CoFFee\read_data_files\Kongsberg\format_kmall\CFF_convert_KMALLdata_to_fData.m</file>
+      <file>C:\Users\Schimel_Alexandre\Code\MATLAB\CoFFee\read_data_files\Kongsberg\format_kmall\CFF_decode_IOP.m</file>
       <file>C:\Users\Schimel_Alexandre\Code\MATLAB\CoFFee\read_data_files\Kongsberg\format_kmall\CFF_get_kmall_revision.m</file>
+      <file>C:\Users\Schimel_Alexandre\Code\MATLAB\CoFFee\read_data_files\Kongsberg\format_kmall\CFF_getKM.m</file>
       <file>C:\Users\Schimel_Alexandre\Code\MATLAB\CoFFee\read_data_files\Kongsberg\format_kmall\CFF_kmall_file_info.m</file>
       <file>C:\Users\Schimel_Alexandre\Code\MATLAB\CoFFee\read_data_files\Kongsberg\format_kmall\CFF_kmall_time_to_all_time.m</file>
       <file>C:\Users\Schimel_Alexandre\Code\MATLAB\CoFFee\read_data_files\Kongsberg\format_kmall\CFF_kmall_time_to_datetime.m</file>
