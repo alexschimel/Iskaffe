@@ -74,13 +74,13 @@ If you want to receive notifications of future releases (recommended), you may c
 
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the MIT License. See `LICENSE` file for details.
 
 ## See Also
 
 All apps based on CoFFee:
 * [*Grounds*](https://github.com/alexschimel/Grounds): Elevation Change Analysis
-* *Espresso*: Water-column data viewing and processing (private)
+* [*Espresso*](https://github.com/alexschimel/Espresso): Multibeam water-column data visualization and processing (private)
 * [*Iskaffe*](https://github.com/alexschimel/Iskaffe): Multibeam backscatter quality control
 
 ## Acknowledgments
