@@ -10,7 +10,7 @@ Multibeam backscatter quality control.
 
 *Iskaffe* (Norwegian Bokmål for "iced coffee") is a free and open-source app to help assess the quality of the seafloor backscatter data acquired by multibeam echosounders. The main purpose of this tool is to serve as a development platform to come up with a set of algorithms that assess various aspects of backscatter quality, and define standards of backscatter quality based on the output of those algorithms. While we are currently developping *Iskaffe* for our own use, we are welcoming co-developers and feedback to help coming up with more widely-applicable algorithms and backscatter quality standards.
 
-*Iskaffe* uses the [CoFFee multibeam data processing toolbox](https://github.com/alexschimel/CoFFee) (hence the name). It is coded in [MATLAB](https://www.mathworks.com/products/matlab.html), but is also available as a standalone application that does not require a MATLAB licence (see the Dependencies and Installing sections).
+*Iskaffe* uses the [CoFFee multibeam data processing toolbox](https://github.com/alexschimel/CoFFee) (hence the name). It is coded in [MATLAB](https://www.mathworks.com/products/matlab.html), but is also available as a standalone application that does not require a MATLAB licence (see the [Dependencies](#dependencies) and [Installing](#installing) sections).
 
 *Iskaffe* is still at an early stage of development so it has fewer features and more bugs than you would want. Please be patient. For a starter, its main current limitations are that it does not like loading too many files at a time. Still, the latest release already has some relevant features:
 * Support Kongsberg .all and .kmall formats
@@ -55,39 +55,48 @@ Note: At start-up, *Iskaffe* creates a `Iskaffe` user folder (normally, C:\Users
 
 ## Help
 
-Head over to the [wiki](https://github.com/alexschimel/Iskaffe/wiki) for documentation (in progress as of 29/07/2023).
+Head over to the [wiki](https://github.com/alexschimel/Iskaffe/wiki) for documentation (in progress).
 
-For more information, contact the authors.
+For more help, contact the [authors](#authors).
 
-## Updates
+## Past versions and updates
+
+See the [releases](https://github.com/alexschimel/Iskaffe/releases) page for past released versions. 
 
 If you want to receive notifications of future releases (recommended), you may create a github account, and on this repository click on 'Watch', then 'Custom', and choose 'Releases'. Verify in your GitHub settings that you are set to receive 'Watching' notifications.
 
-## Authors
+## About
 
-* Alexandre Schimel ([The Geological Survey of Norway](https://www.ngu.no), alexandre.schimel@ngu.no)
+### Authors
+
+* Alexandre Schimel (The Geological Survey of Norway, alexandre.schimel@ngu.no)
 * Margaret Dolan, Shyam Shand, Terje Thorsnes, Lilja Rún Bjarnadóttir (The Geological Survey of Norway)
 
-## Version History
+### Copyright
 
-[See the releases page](https://github.com/alexschimel/Iskaffe/releases)
+2021-2024
+* Alexandre Schimel (The Geological Survey of Norway)
 
-## License
+### License
 
-Distributed under the MIT License. See `LICENSE` file for details.
+The _Iskaffe_ software and source code is distributed under the MIT License. See `LICENSE` file for details.
+
+### Citation/Credit
+
+An article is in preparation for reference. 
+
+### Acknowledgments
+
+Iskaffe logo from photo by [Talia Anna](https://unsplash.com/photos/kZt3uHtIyiI) on [Unsplash](https://unsplash.com)
 
 ## See Also
 
-All apps based on CoFFee:
+### All apps based on CoFFee:
 * [*Grounds*](https://github.com/alexschimel/Grounds): Elevation Change Analysis
 * [*Espresso*](https://github.com/alexschimel/Espresso): Multibeam water-column data visualization and processing (private)
 * [*Iskaffe*](https://github.com/alexschimel/Iskaffe): Multibeam backscatter quality control
 
-## Acknowledgments
-
-Iskaffe logo from photo by [Talia Anna](https://unsplash.com/photos/kZt3uHtIyiI) on [Unsplash](https://unsplash.com)
-
-## References 
+### References 
 
 None to date.
 
