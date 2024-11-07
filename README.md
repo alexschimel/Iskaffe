@@ -57,6 +57,8 @@ Note: At start-up, *Iskaffe* creates a `Iskaffe` user folder (normally, C:\Users
 
 Head over to the [wiki](https://github.com/alexschimel/Iskaffe/wiki) for documentation (in progress).
 
+If you have any issues, first check the project's [Issues](https://github.com/alexschimel/Iskaffe/issues) to search for a fix. Otherwise, let the authors know by [creating a new issue](https://github.com/alexschimel/Iskaffe/issues/new). Ideally, share the Iskaffe log to provide insight in the issue. 
+
 For more help, contact the [authors](#authors).
 
 ## Past versions and updates
