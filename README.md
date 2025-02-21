@@ -71,13 +71,13 @@ If you want to receive notifications of future releases (recommended), you may c
 
 ### Authors and contributors
 
-* Alexandre Schimel (The Geological Survey of Norway, alexandre.schimel@ngu.no)
+* Alexandre Schimel (alex.schimel@proton.me)
 * Margaret Dolan, Shyam Chand, Terje Thorsnes, Lilja Rún Bjarnadóttir (The Geological Survey of Norway)
 
 ### Copyright
 
-2021-2024
-* Alexandre Schimel (The Geological Survey of Norway)
+2021-2025
+* Alexandre Schimel
 
 ### License
 
