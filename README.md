@@ -6,7 +6,7 @@ Multibeam backscatter quality control.
 
 [![](https://github.com/alexschimel/Iskaffe/blob/main/Iskaffe_resources/download.png)](https://github.com/alexschimel/Iskaffe/releases/download/v0.3.3/iskaffe_v033_setup.exe)
 
-## Description
+### Description
 
 *Iskaffe* (Norwegian Bokmål for "iced coffee") is a free and open-source app to help assess the quality of the seafloor backscatter data acquired by multibeam echosounders. The main purpose of this tool is to serve as a development platform to come up with a set of algorithms that assess various aspects of backscatter quality, and define standards of backscatter quality based on the output of those algorithms. While we are currently developping *Iskaffe* for our own use, we are welcoming co-developers and feedback to help coming up with more widely-applicable algorithms and backscatter quality standards.
 
@@ -59,9 +59,9 @@ Head over to the [wiki](https://github.com/alexschimel/Iskaffe/wiki) for documen
 
 If you have any issues, first check the project's [Issues](https://github.com/alexschimel/Iskaffe/issues) to search for a fix. Otherwise, let the authors know by [creating a new issue](https://github.com/alexschimel/Iskaffe/issues/new). Ideally, share the Iskaffe log to provide insight in the issue. 
 
-For more help, contact the [authors](#authors).
+For more help, contact the [authors](#authors-and-contributors).
 
-## Past versions and updates
+### Past versions and updates
 
 See the [releases](https://github.com/alexschimel/Iskaffe/releases) page for past released versions. 
 
@@ -81,7 +81,7 @@ If you want to receive notifications of future releases (recommended), you may c
 
 ### License
 
-The _Iskaffe_ software and source code is distributed under the MIT License. See `LICENSE` file for details.
+The *Iskaffe* software and source code is distributed under the MIT License. See `LICENSE` file for details.
 
 ### Citation/Credit
 
@@ -90,6 +90,15 @@ An article is in preparation for reference.
 ### Acknowledgments
 
 Iskaffe logo from photo by [Talia Anna](https://unsplash.com/photos/kZt3uHtIyiI) on [Unsplash](https://unsplash.com)
+
+### Support This Project 💖
+
+If you use *Iskaffe* in your research, teaching, or professional work, please consider supporting its development. Your support helps cover development time, MATLAB license costs, and ensures continued availability of free, open-source tools for multibeam sonar data analysis.
+
+For **monthly support**, consider [sponsoring on GitHub](https://github.com/sponsors/alexschimel). For **one-time donations**, you can use [PayPal](https://paypal.me/alexschimel).
+
+[![Sponsor on GitHub](https://img.shields.io/badge/Sponsor-GitHub-ea4aaa.svg)](https://github.com/sponsors/alexschimel)
+[![Donate via PayPal](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://paypal.me/alexschimel)
 
 ## See Also
 
