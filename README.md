@@ -6,6 +6,17 @@ Multibeam backscatter quality control.
 
 [![](https://github.com/alexschimel/Iskaffe/blob/main/Iskaffe_resources/download.png)](https://github.com/alexschimel/Iskaffe/releases/download/v0.3.3/iskaffe_v033_setup.exe)
 
+
+[![Language](https://img.shields.io/badge/MATLAB-R2020b-orange)](#)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Release](https://img.shields.io/github/v/release/alexschimel/Iskaffe)](https://github.com/alexschimel/Iskaffe/releases)
+[![Last Commit](https://img.shields.io/github/last-commit/alexschimel/Iskaffe)](https://github.com/alexschimel/Iskaffe/commits/main)
+[![Docs](https://img.shields.io/badge/Docs-Wiki-blue)](https://github.com/alexschimel/Iskaffe/wiki)
+
+[![Sponsor](https://img.shields.io/badge/Sponsor-GitHub-ea4aaa.svg)](https://github.com/sponsors/alexschimel)
+[![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://paypal.me/alexschimel)
+
+
 ### Description
 
 *Iskaffe* (Norwegian Bokmål for "iced coffee") is a free and open-source app to help assess the quality of the seafloor backscatter data acquired by multibeam echosounders. The main purpose of this tool is to serve as a development platform to come up with a set of algorithms that assess various aspects of backscatter quality, and define standards of backscatter quality based on the output of those algorithms. While we are currently developping *Iskaffe* for our own use, we are welcoming co-developers and feedback to help coming up with more widely-applicable algorithms and backscatter quality standards.
