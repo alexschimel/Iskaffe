@@ -107,9 +107,6 @@ If you use *Iskaffe* in your research, teaching, or professional work, please co
 
 For **monthly support**, consider [sponsoring on GitHub](https://github.com/sponsors/alexschimel). For **one-time donations**, you can use [PayPal](https://paypal.me/alexschimel).
 
-[![Sponsor on GitHub](https://img.shields.io/badge/Sponsor-GitHub-ea4aaa.svg)](https://github.com/sponsors/alexschimel)
-[![Donate via PayPal](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://paypal.me/alexschimel)
-
 ## See Also
 
 ### All apps based on CoFFee:
